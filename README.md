@@ -8,14 +8,21 @@ A variant of one-dark that follows the guidelines:
 the background is black,
 
 keywords   are blue,
+
 variables* are green,
+
 types*     are turquoise,
+
 strings    are gold,
+
 comments   are gray,
-constants  are i haven't decided,
+
 functions* are orange,
 
+constants  are I haven't decided yet,
+
 everything else is white
+
 ||||||||||||||||||||||||
 
 * also methods/operators/macros
