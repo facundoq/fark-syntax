@@ -1,0 +1,46 @@
+
+// Config -----------------------------------
+@syntax-hue:          220;
+@syntax-saturation:   13%;
+@syntax-brightness:   5%;
+
+
+// Monochrome -----------------------------------
+
+
+@default-hue: hsl(@syntax-hue, 14%, 95%); // default text
+
+// Colors -----------------------------------
+@function-hue:  hsl(25, 95%, 60%); // <-orange
+@operator-hue:  hsla(25, 95%, 60%,0.7); // <-orange
+@keyword-hue:  hsl(220, 90%, 66%); // <-lightblue
+@type-hue:  hsl(190, 100%, 66%); // <-blue
+@delim-hue:  hsl(250, 0%, 75%); // <light gray
+@comment-hue:  hsl(35, 15%, 70%); // <-yellowish
+@string-hue:  hsl(40, 50%, 70%); // <-yellowish
+@variable-hue: hsla(128, 70%, 70%, 1); // <-green
+@variable-interpolation-hue:  hsl(250, 50%, 66%); // <-green
+@parameter-hue:  hsl(260, 100%, 66%); // <-green
+@field-hue:  hsl(250, 50%, 66%); // <-green
+@value-hue:  hsl(10, 65%, 65%); // <-redish
+@constant-hue:  hsl(10, 48%, 51%); // <-redish
+@constant-numeric-hue:  hsl(10, 48%, 51%); // <-redish
+@packages-hue:  hsl(25, 48%, 51%); // <-redish
+
+
+@hue-1:   hsl(3, 100%, 50%); // <-cyan
+@hue-2:   hsl(3, 100%, 50%); // <-cyan
+@hue-3:   hsl(3, 100%, 50%); // <-cyan
+@hue-4:   hsl(3, 100%, 50%); // <-cyan
+@hue-5:   hsl(3, 100%, 50%); // <-cyan
+@hue-5-2:   hsl(3, 100%, 50%); // <-cyan
+@hue-6:   hsl(3, 100%, 50%); // <-cyan
+@hue-6-2:    hsl(3, 100%, 50%); // <-cyan
+
+
+// Base colors -----------------------------------
+@syntax-fg:     @default-hue;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: darken(@syntax-fg, 26%);
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-accent: hsl(@syntax-hue, 100%, 66% );
