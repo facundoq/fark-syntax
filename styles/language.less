@@ -5,17 +5,6 @@
   font-style: italic;
 }
 
-.entity {
-
-  &.name.type {
-    color: @hue-6-2;
-  }
-
-  &.other.inherited-class {
-    color: @hue-4;
-  }
-}
-
 .keyword {
   color: @keyword-hue;
 
@@ -150,7 +139,7 @@
     &.method,
     &.class,
     &.inner-class {
-      color: @hue-1;
+      //color: @hue-1;
     }
   }
 }
@@ -172,6 +161,16 @@
     }
   }
 }
+.entity {
+
+  &.name.type {
+    color: @type-hue;
+  }
+
+  &.other.inherited-class {
+    color: @type-hue;
+  }
+}
 
 .entity {
   &.name.function {
@@ -184,18 +183,18 @@
   }
 
   &.name.section {
-    color: @hue-2;
+    color: @section-hue;
   }
 
   &.name.tag {
-    color: @hue-5;
+    color: @type-hue;
   }
 
   &.other.attribute-name {
-    color: @hue-6;
+    color: @type-hue;
 
     &.id {
-      color: @hue-2;
+      color: @string-hue;
     }
   }
 }
