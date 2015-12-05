@@ -1,7 +1,7 @@
 {
   "name": "fark-syntax",
   "theme": "syntax",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A dark syntax for Atom with semantic colors",
   "keywords": [
     "syntax",
