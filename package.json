@@ -1,13 +1,21 @@
 {
   "name": "fark-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.0.1",
+  "description": "A dark syntax for Atom with semantic colors",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "dark",
+    "semantic"
   ],
-  "repository": "https://github.com/atom/fark-syntax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facundoq/fark-syntax"
+  },
+  "bugs": {
+    "url": "https://github.com/facundoq/fark-syntax/issues"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
